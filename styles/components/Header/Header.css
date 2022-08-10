@@ -81,6 +81,17 @@
   color: var(--white);
 }
 
+.nav-item-disc a {
+  text-decoration: none;
+  color: var(--white);
+}
+
+.nav-item-disc a:hover {
+  cursor: pointer;
+  transition: 0.5s;
+  color: var(--green);
+}
+
 .resume-btn {
   position: relative;
   display: flex;
@@ -110,7 +121,7 @@
   background-color: hsl(166deg, 20%, 20%);
 }
 
-polygon {
+#Shape {
   display: flex;
   position: absolute;
   border: 3px solid var(--green);
@@ -125,7 +136,7 @@ polygon {
   bottom: 1040px;
 }
 
-polygon p {
+#Shape p {
   position: absolute;
   display: flex;
   top: -7px;
@@ -135,7 +146,7 @@ polygon p {
   color: var(--green);
 }
 
-polygon:hover {
+#Shape:hover {
   cursor: pointer;
   transition: 0.7s;
   background-color: hsl(166deg, 20%, 20%);
